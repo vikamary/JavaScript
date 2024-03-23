@@ -18,4 +18,26 @@ let myAgeInYears = 21;
 
 let myAgeInSeconds = secondsInMinute * minutesInHour * hoursInDay * daysInYear * myAgeInYears;
 
-console.log("My age in seconds", myAgeInSeconds);
+console.log("My age in seconds:", myAgeInSeconds);
+
+//Third Task
+
+let count = 42;
+let userName = '42';
+
+let countString = String(count);
+
+let userNameNumber = parseInt(userName);
+
+console.log('Count as String:', countString);
+console.log('User Name as number:', userNameNumber);
+
+//4th Task
+
+let a = 1;
+let b = 2;
+let c = 'белых медведей';
+
+let result = a + b + c;
+
+console.log(result);

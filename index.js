@@ -66,3 +66,34 @@ let word5 = 'рубил';
 let lengthWords = word1.length + word2.length + word3.length + word4.length + word5.length;
 
 console.log('Lenght all words in lists:', lengthWords);
+
+//6th Task
+
+let stringVariable = 'Hello';
+let numberVariable = '23';
+let symbolVariable = Symbol('foo');
+
+//7th Task
+
+let userInput = prompt('Введите ваше имя:');
+let userAge = prompt('Введите ваш возраст:');
+
+console.log('User Name:', userInput);
+console.log('User Age:', userAge);
+
+//Level 1
+
+let a = 4;
+let b = 3;
+
+//Level 2
+
+let codeword1 = 'обернись';
+let codeword2 = 'неужели';
+let codeword3 = 'огурцы';
+let codeword4 = 'липкие';
+let codeword5 = '?!';
+
+let cipher = codeword1[1] + codeword2[1] + codeword3[1] + codeword4[1] + codeword5[1];
+
+console.log(cipher);

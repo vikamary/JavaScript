@@ -27,7 +27,7 @@ console.log("My age in seconds:", myAgeInSeconds);
 let count = 42;
 let userName = '42';
 
-let countString = String(count);
+let countString = count.toString();
 
 let userNameNumber = parseInt(userName);
 
@@ -39,7 +39,7 @@ console.log('User Name as number:', userNameNumber);
 let count = 42;
 let userName = '42';
 
-let countString = count + '';
+let countString = '' + count;
 let userNameNumber = +userName;
 
 console.log('Count as String', countString);
@@ -87,8 +87,8 @@ console.log('User Age:', userAge);
 
 //Level 1
 
-let a = 4;
-let b = 3;
+/*let a = 4;
+let b = 3;*/
 
 //Level 2
 

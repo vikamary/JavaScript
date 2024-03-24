@@ -70,8 +70,12 @@ console.log('Lenght all words in lists:', lengthWords);
 //6th Task
 
 let stringVariable = 'Hello';
-let numberVariable = '23';
+let numberVariable = 23;
 let symbolVariable = Symbol('foo');
+
+console.log(`Variable: stringVariable have type: ${typeof stringVariable}`);
+console.log(`Variable: numberVariable have type: ${typeof numberVariable}`);
+console.log(`Variable: symbolVariable have type: ${typeof symbolVariable}`);
 
 //7th Task
 
